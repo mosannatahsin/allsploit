@@ -1,33 +1,48 @@
-# allsploit
+# ALLSPLOIT
 
-**All-in-one terminal-based exploit search tool** that aggregates results from Searchsploit, ExploitDB, GitHub, and more.
+`ALLSPLOIT` is a powerful terminal-based exploit search tool that searches across various platforms including:
 
-## 🔍 Features
-- Search multiple sources (Searchsploit, ExploitDB, GitHub)
-- Fast and clean terminal UI
-- Error reporting with suggestions
-- Custom author credit
-- Stylish hacking-themed interface
+- ExploitDB
+- GitHub
+- Metasploit
+- Local Searchsploit (if added)
 
-## ⚙️ Installation
+## ✨ Features
 
+- Stylish terminal UI with Rich library
+- Searches exploit terms across multiple sources
+- Error handling with suggestions
+- Author credits and GitHub-ready structure
+
+## 📦 Installation
+
+### 1. Ensure Python 3 and pip3 are installed
+```bash
+sudo apt update
+sudo apt install python3-pip -y
+```
+
+### 2. Clone and install dependencies
 ```bash
 git clone https://github.com/mosannatahsin/allsploit.git
 cd allsploit
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+```
+
+## 🚀 Usage
+
+```bash
 python3 allsploit.py
 ```
 
-## 📌 Usage
+OR make it executable:
 
-- Run the script and input any exploit or software name.
-- You will receive links and local database search results.
+```bash
+chmod +x allsploit.py
+./allsploit.py
+```
 
-## 🙋 Author
+## 📄 Author
 
-- **Mosanna Tahsin** ([mosannatahsin](https://github.com/mosannatahsin))
-- **Co-developer**: ChatGPT by OpenAI
-
-## 📜 License
-
-MIT License (optional)
+- [Mosanna Tahsin](https://github.com/mosannatahsin)
+- With support from ChatGPT
